@@ -1,0 +1,13 @@
+# Site settings
+title: Seth Polsley
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Howdy!  This is my little corner on GitHub.  The "About" page has some more info about me, and I may have occasional blog posts about some of my projects, linked to on the left.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username:
+github_username:  sepol
+linkedin_username: sepol
+
+# Build settings
+markdown: kramdown
