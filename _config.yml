@@ -1,5 +1,5 @@
 name: Seth Polsley
-highlighter: true
+highlighter: false
 url: http://www.spolsley.com
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
