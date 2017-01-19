@@ -1,13 +1,33 @@
-# Site settings
-title: Seth Polsley
-email:
-description: > # this means to ignore newlines until "baseurl:"
-  Howdy!  This is my little corner on GitHub.  The "About" page has some more info about me, and I may have occasional blog posts about some of my projects, linked to on the left.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-twitter_username:
-github_username:  spolsley
-linkedin_username: spolsley
+name: Seth Polsley
+highlighter: true
+url: http://www.spolsley.com
+gems: [jekyll-paginate,  jekyll-gist]
+paginate: 8
+description:   
+intro: 
+logo:             logo.png
+disqus_shortname:
+# url: http://gotchacode.com
+#Comment out url when working locally to resolve base urls correctly
+#url:
 
-# Build settings
-markdown: kramdown
+# Owner/author information
+owner:
+  name:           spolsley
+  avatar:         <avatar-image-link>
+  email:          <your-email-address>
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  github: http://www.github.com/spolsley
+  stackexchange:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
