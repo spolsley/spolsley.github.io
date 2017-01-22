@@ -36,9 +36,9 @@ body {
   font-size: 17px;
   line-height: 1.4;
   color: #333;
-  text-shadow: 0 1px 0 rgba(255,255,255,1.0);
-  border-top: 4px solid #556270;
-  border-bottom: 4px solid #556270;
+  /* text-shadow: 0 1px 0 rgba(255,255,255,1.0); */
+  border-top: 4px solid #eee;
+  /* border-bottom: 4px solid #556270; */
 }
 
 strong {
@@ -73,8 +73,9 @@ hr:before {
 
 .header-container {
   margin: 0 auto;
-  max-width: 1080px;
-  padding: 0 20px;
+  /* max-width: 1080px; */
+  /* padding: 0 20px; */
+  text-shadow: 0 1px 0 rgba(0,0,0,1.0);
 }
 
 header {
@@ -83,7 +84,7 @@ header {
 }
 
 ul.nav {
-  background-color: #eee;
+  background-color: #556270;
   margin: 0;
   padding: 12px 0 10px 0;
   list-style-type: none;
@@ -113,7 +114,7 @@ ul.nav li {
   }
 }
 ul.nav li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-weight: lighter;
 }
@@ -133,6 +134,20 @@ ul.nav li.logo a {
   background: #556270;
   border-radius: 100px;
   box-shadow: 0 1px 0 rgba(255,255,255,1.0);
+}
+
+ul.nav span.social-links {
+  position: absolute;
+  right: 6px;
+}
+
+a.svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
 }
 
 /*------------------------------------------------------------------------------

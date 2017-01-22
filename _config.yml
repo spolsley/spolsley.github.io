@@ -1,11 +1,11 @@
 name: Seth Polsley
 highlighter: false
-url: http://www.spolsley.com
+url: 
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 description:   
 intro: 
-logo:             logo.png
+logo:
 disqus_shortname:
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
@@ -19,6 +19,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   github: http://www.github.com/spolsley
+  linkedin: https://www.linkedin.com/in/spolsley
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
