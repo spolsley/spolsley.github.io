@@ -1,10 +1,10 @@
 name: Seth Polsley
 highlighter: false
-url: 
+url:
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
-description:   
-intro: 
+description: Seth Polsley - Tech Thoughts
+intro: Seth Polsley's collection of tech-related musings...
 logo:
 disqus_shortname:
 # url: http://gotchacode.com
