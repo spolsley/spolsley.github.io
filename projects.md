@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: content
 title: Seth Polsley's Projects
 ---
+
+This page lists some of the projects I've worked on over the last few years.  It's mostly a compilation of different papers or projects you might find on GitHub or Google Scholar, just with a little context added.  The diversity of my interests is likely apparent, but I believe the underlying theme of intelligent systems runs throughout.
 
 <div class="grid grid-pad">
 
@@ -36,7 +38,7 @@ title: Seth Polsley's Projects
 			<br>
 			<img align="left" src="res/images/projects_cane.png" />
 			<p style="font-size: small;">
-			The Computer-Assisted Navigation Engine (CANE) was primarily designed to help blind users navigate without impairing their other senses.  Audio feedback can be very distracting; most individuals with severe visual impairment prefer tactile feedback through guide dogs or white canes.  The CANE project yielded a wearable belt lined with proximity sensors and vibrotactile devices.  Through vibration, the users can receive early warning of obstacles.  This work was presented at an IUI workshop in 2016 but is the subject of ongoing research at the Sketch Recognition Lab.
+			The Computer-Assisted Navigation Engine (CANE) was designed to help blind users navigate without impairing their other senses.  Audio feedback can be very distracting; most individuals with severe visual impairment prefer tactile feedback through guide dogs or white canes.  CANE yielded a belt lined with proximity sensors and vibrotactile devices.  Users receive early warning of obstacles through vibration.  Presented at an IUI workshop in its initial form, CANE is an ongoing project in the lab.
 			<br><br>
 			<a target="_blank" href="res/papers/cane.pdf">Paper &#10137;</a>
 			</p>
@@ -61,7 +63,7 @@ title: Seth Polsley's Projects
 		<div class="content">
 			<b>Frontier: Graph-Based Web Browsing</b>
 			<br>
-			<img align="left" src="res/images/projects_frontier.jpg" />
+			<img align="left" src="res/images/projects_frontier.png" />
 			<p style="font-size: small;">
 			Mentoring a team of undergraduate computer science students for their captsone project, I had the opportunity to play a small role in the development of a unique Chrome browsing extension.  Frontier is designed to save browsing as a graph rather than a stack.  In practice, this means that users can go back and forward any number of times along any path in their history, not just the most recent sites.  Graphical browsing also supports more useful visualizations in the history menu.  The paper was presented at CHItaly 2015.
 			<br><br>
@@ -75,9 +77,9 @@ title: Seth Polsley's Projects
 		<div class="content">
 			<b>Persketchtivity</b>
 			<br>
-			<img align="left" src="res/images/projects_persketch.jpg" />
+			<img align="left" src="res/images/projects_persketch.png" />
 			<p style="font-size: small;">
-			Another education project, I worked on the Sketch Recognition Lab's <a target="_blank" href="http://www.persketchtivity.com">Persketchtivity</a> software.  Persketchtivity is a web-based program that helps teach students to draw following a scaffolded approach based on standard design curriculum.
+			Another education project, I worked on the Sketch Recognition Lab's <a target="_blank" href="http://www.persketchtivity.com">Persketchtivity</a> software for about a year.  Persketchtivity is a web-based program that helps teach students to draw following a scaffolded approach based on standard design curriculum.  Owing to the spectacular design talent of the creator, <a target="_blank" href="http://williforddesign.com">Blake Williford</a>, it is a visually stunning program that has generated a lot of useful research, including methods for computationally scoring a person's drawing proficiency.
 			<br><br>
 			<a target="_blank" href="res/papers/persketch-ui-poster.jpg">Poster (UI) &#10137;</a>&nbsp;&nbsp;&nbsp;&nbsp;
 			<a target="_blank" href="res/papers/persketch-rec-poster.jpg">Poster (Recognition) &#10137;</a>
@@ -102,7 +104,7 @@ title: Seth Polsley's Projects
 		<div class="content">
 			<b>Mechanix</b>
 			<br>
-			<img align="left" src="res/images/projects_mcx.jpg" />
+			<img align="left" src="res/images/projects_mcx.png" />
 			<p style="font-size: small;">
 			For a couple of years during my time at TAMU, I've been heavily involved in maintanence and development of the Sketch Recognition Lab's <a target="_blank" href="http://faculty.cse.tamu.edu/hammond/mechanix.php">Mechanix</a> software for engineering students.  The tool is a Java-based application that supports natural, pen-based interaction with real-time recognition and personalized feedback.  The user interface was presented at Intelligent User Interfaces in 2015.
 			<br><br>
@@ -118,7 +120,7 @@ title: Seth Polsley's Projects
 			<br>
 			<img align="left" src="res/images/projects_inn.png" />
 			<p style="font-size: small;">
-			System-On-a-Chip design is becoming very popular as devices need to be more mobile.  In my codesign embedded systems course at TAMU, our team developed a test module for a Neural-Network-On-a-Chip.  The idea is that machine learning is increasingly vital to developing smarter applications today, so why not use hardware to accelerate the process? The key to making a fast hardware-based neural network is removing floating point computations for discrete, integer ones.  The INN repository is linked below, along with the project paper discussing our results when applied to a simple problem of healthcare cost modeling.  The takeaway is that hardware INNs are orders of magnitude faster than software NNs.
+			<a target="_blank" href="https://en.wikipedia.org/wiki/System_on_a_chip">System on a Chip</a> (SoC) design pushes more capabilities onto a single chip for improvements in power, mobility, and cost.  Since machine learning is vital to developing smart applications today, why not make neural nets a hardware module?  In codesign embedded systems at TAMU, my team explored that question with the development of an integer neural net (INN) module.  In our simulated hardware tests on healthcare cost modeling, we found hardware INNs are orders of magnitude faster than traditional software NNs.
 			<br><br>
 			<a target="_blank" href="https://github.com/spolsley/integerNeuralNetwork">GitHub &#10137;</a>&nbsp;&nbsp;&nbsp;&nbsp;
 			<a target="_blank" href="res/papers/integer-neural-nets.pdf">Paper &#10137;</a>
