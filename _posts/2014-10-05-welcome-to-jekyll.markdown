@@ -8,4 +8,4 @@ I thought it'd be a fun idea to make a small GitHub page with more info about me
 
 Feel free to check out my [GitHub repos][github-repos] for a sense of the type of projects I often do.  There's a bit of a mix: some of them were written for classes, but many were purely for fun.  I think it's safe to say a lot of them are related to artificial intelligence or signal processing topics in some way.  I have more ideas for future projects that I hope to be sharing on GitHub soon!
 
-[github-repos]:	https://github.com/sepol/
+[github-repos]:	https://github.com/spolsley/

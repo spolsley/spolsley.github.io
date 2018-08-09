@@ -1,7 +1,7 @@
 name: Seth Polsley
 highlighter: false
 url:
-gems: [jekyll-paginate,  jekyll-gist]
+plugins: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 description: Seth Polsley - Tech Thoughts
 intro: Seth Polsley's collection of tech-related musings...
