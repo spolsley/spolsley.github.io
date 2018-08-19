@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Welcome to My Site!"
+date:   2017-01-26
+categories: 
+---
+
+I decided to make a jekyll-powered IO page on Github, mostly for fun and learning.  I'd like to use this space to jot down some thoughts and blog about interesting topics, mostly tech-related.  Updates will likely be infrequent, but feel free to check out the other links across the top of the page to learn more about my projects, papers, and activities.
+
+My [GitHub page][github-repos] is a good place to get an overview of the type of projects I often do.  There's a bit of a mix: some of them were written for classes, but many were purely for fun.  I think it's safe to say a lot of them are related to artificial intelligence or signal processing topics in some way.  I have more ideas for future projects that I hope to be sharing on GitHub soon!
+
+[github-repos]:	https://github.com/spolsley/
