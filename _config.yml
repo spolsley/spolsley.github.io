@@ -3,6 +3,7 @@ highlighter: false
 url:
 plugins: [jekyll-paginate,  jekyll-gist]
 paginate: 8
+future: true
 description: Seth Polsley's Blog - Tech Thoughts
 intro: Tech Thoughts
 logo: tt_logo.png
