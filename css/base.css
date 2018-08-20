@@ -32,6 +32,7 @@ a img{ border:none; }
 ----------------------------------------------------------------------------*/
 
 body {
+  text-align: justify;
   font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
