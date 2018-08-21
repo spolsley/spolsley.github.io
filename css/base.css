@@ -263,6 +263,7 @@ p.intro a:hover {
 
 h1 {
   margin-left: 0px;
+  text-align:left;
 }
 h1.words {
   color: #DB2C17;
