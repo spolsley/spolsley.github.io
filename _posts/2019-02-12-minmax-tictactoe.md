@@ -23,4 +23,6 @@ Checking "Show Probabilities" will color-code the cells with likelihood from gra
 
 Checking "Show Visited States" displays all the boards the computer evaluates in choosing its next move.  This is the main "new" feature added.  Note that the states are not organized into an actual min-max tree with the various probabilities.  They are organized instead by depth / number of moves into the future.  It's not a perfect way to visualize the data, but in conjunction with some other resources about game AI algorithms, it's a fun feature to try out.
 
+For example, in the game below, the human player has put an "X" in the upper right, and the computer chose the center to play "O".  Although the difference is minor, color coding shows that the center and edges are empirically better cells than in-between cells.
+
 ![Sample TicTacToe Game](../../../res/images/posts/minmax-tictactoe/samplegame.png)
