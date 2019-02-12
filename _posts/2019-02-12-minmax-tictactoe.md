@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TicTacToe AI to Illustrate Min-Max Algorithm"
-date:   2018-02-12
+date:   2019-02-12
 categories: 
 ---
 
