@@ -24,7 +24,7 @@ Consider the following example.  If you simply select every other frame from the
 
 ![60fps video of 30fps content doesn't mean every frame is repeated exactly twice](../../../res/images/posts/framefixer/sample.jpg)
 
-I looked around for more a sophisticed downsampler to address this problem.  The [`mpdecimate` plug-in for ffmpeg](https://ffmpeg.org/ffmpeg-filters.html#mpdecimate) came close but introduced audio sync issues.  Nothing seemed exactly right.
+I looked around for more a sophisticated downsampler to address this problem.  The [`mpdecimate` plug-in for ffmpeg](https://ffmpeg.org/ffmpeg-filters.html#mpdecimate) came close but introduced audio sync issues.  Nothing seemed exactly right.
 
 ## My Solution
 
