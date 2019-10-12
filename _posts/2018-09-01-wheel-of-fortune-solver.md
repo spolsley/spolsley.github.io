@@ -6,9 +6,9 @@ categories:
 excerpt: This is a hobby project I wrote a few years ago as a fun means of getting help playing *Wheel of Fortune*.  There weren't any online solvers I could find at the time and even the few available now are pretty limited, so I made my own.  I hope it proves a fun, interesting, or informative tool for someone!  Read on for a lot more detail about it...
 ---
 
-<font size="+3">Link: <a href="http://projects.spolsley.com/word_solver.html" target="_blank">Wheel of Fortune Solver Online</a></font>
-
 This is a hobby project I wrote a few years ago as a fun means of getting help playing *Wheel of Fortune*.  There weren't any online solvers I could find at the time and even the few available now are pretty limited, so I made my own.  I hope it proves a fun, interesting, or informative tool for someone!  Read on for a lot more detail about it...
+
+<font size="+3">Link: <a href="http://projects.spolsley.com/word_solver.html" target="_blank">Puzzle Solver Online</a></font>
 
 ## Introduction
 
