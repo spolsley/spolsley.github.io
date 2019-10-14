@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FrameFixer - Minimizing Dropped Frames when Downsampling Video"
+title:  "FrameFixer - Reducing Dropped Frames when Downsampling Video"
 date:   2019-10-11
 categories: 
 excerpt: "I was recording an emulated game the other day, and I noticed that Quicktime captures at 60fps, even though the game only ran at 30fps.  Half of the frames were duplicates!  I thought it would be easy to downsample to 30fps, keeping just the original content, but I couldn't find any tool that did exactly what I wanted.  Ultimately, I wrote a small OpenCV-based program for the task."
