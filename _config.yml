@@ -1,6 +1,6 @@
 name: Seth Polsley
 highlighter: false
-url:
+url: https://www.spolsley.com
 plugins: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 future: true
@@ -19,7 +19,7 @@ owner:
   email:          <your-email-address>
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  github: http://www.github.com/spolsley
+  github: https://www.github.com/spolsley
   linkedin: https://www.linkedin.com/in/spolsley
   scholar: https://scholar.google.com/citations?user=TYi09_oAAAAJ&hl=en
   stackexchange:
