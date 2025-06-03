@@ -3,10 +3,11 @@ highlighter: false
 url: https://www.spolsley.com
 plugins: [jekyll-paginate,  jekyll-gist]
 paginate: 8
+paginate_path: "/blog/page:num/"
 future: true
 description: Seth Polsley's Blog - Tech Thoughts
 intro: Tech Thoughts
-logo: tt_logo.png
+logo: /assets/images/tt_logo.png
 disqus_shortname:
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
@@ -34,3 +35,37 @@ bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
+
+# Files to copy to root directory
+include:
+  - assets/icons/android-chrome-192x192.png
+  - assets/icons/android-chrome-256x256.png
+  - assets/icons/apple-touch-icon.png
+  - assets/icons/browserconfig.xml
+  - assets/icons/favicon-16x16.png
+  - assets/icons/favicon-32x32.png
+  - assets/icons/favicon.ico
+  - assets/icons/mstile-150x150.png
+  - assets/icons/safari-pinned-tab.svg
+  - assets/icons/site.webmanifest
+
+# Static file configuration
+defaults:
+  - scope:
+      path: "assets/icons"
+    values:
+      sitemap: false
+
+# Ensure these files are copied to the root
+keep_files: [
+  "android-chrome-192x192.png",
+  "android-chrome-256x256.png",
+  "apple-touch-icon.png",
+  "browserconfig.xml",
+  "favicon-16x16.png",
+  "favicon-32x32.png",
+  "favicon.ico",
+  "mstile-150x150.png",
+  "safari-pinned-tab.svg",
+  "site.webmanifest"
+]

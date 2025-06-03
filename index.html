@@ -1,18 +1,7 @@
 ---
 layout: default
-title: Seth Polsley's Tech Journal
+title: Seth Polsley
+page_content: about_content
 ---
-<p class="intro">
-  <a href="./"><img src="./tt_logo.png" height="32px"> {{ site.intro }}<small> - Seth Polsley's Blog of Largely Tech-Related Musings</small></a>
-</p>
 
-<div class="listing">
-    {% for post in paginator.posts %}
-    <div class="post other link">
-      <h2><span class="mega-octicon octicon-book" style="min-width: 32px;"></span><a href="{{post.url}}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date_to_string }}</p>
-
-      <p>{{ post.excerpt }}</p>
-    </div>
-    {% endfor %}
-</div>
+{% include about_content.html %}
