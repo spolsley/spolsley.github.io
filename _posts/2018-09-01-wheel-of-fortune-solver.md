@@ -94,7 +94,7 @@ Here's the interesting thing: while the average player must work very hard to re
 
 In the compilation of amazing *Wheel of Fortune* wins linked above, the last solve was a history-making episode at the time.  With her guess of "TOUGH WORKOUT", Autumn Erhard become only the second contestant in the game show's history to win the million dollar prize, and it was during the show's 30th anniversary celebration too!  I agree that it seems awfully coincidental that their second million dollar win happened during the 30th anniversary, but it was actually a straightforward win.  As you can see, the solver would also have made Autumn's guess; in fact, it's one of only two possible guesses the contestant could make: tough workout or thigh workout.
 
-![Tough Workout and Thigh Workout were the only two possible solutions for the million dollar win](../../../res/images/posts/wheel-of-fortune-solver/toughworkout.png)
+![Tough Workout and Thigh Workout were the only two possible solutions for the million dollar win]({{ site.baseurl }}/posts/images/wheel-of-fortune-solver/toughworkout.png)
 
 ## Next Steps
 

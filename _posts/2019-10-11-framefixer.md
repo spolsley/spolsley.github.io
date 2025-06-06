@@ -22,7 +22,7 @@ In the ideal case, each frame of 30fps content occurs exactly twice in a 60fps r
 
 Consider the following example.  If you simply select every other frame from the recording, you'll get Frames 1, 3, 5, and 7.  Notice that Frame 3 of the game would be lost.
 
-![60fps video of 30fps content doesn't mean every frame is repeated exactly twice](../../../res/images/posts/framefixer/sample.jpg)
+![60fps video of 30fps content doesn't mean every frame is repeated exactly twice]({{ site.baseurl }}/posts/images/framefixer/sample.jpg)
 
 I looked around for more a sophisticated downsampler to address this problem.  The [`mpdecimate` plug-in for ffmpeg](https://ffmpeg.org/ffmpeg-filters.html#mpdecimate) came close but introduced audio sync issues.  Nothing seemed exactly right.
 
@@ -30,7 +30,7 @@ I looked around for more a sophisticated downsampler to address this problem.  T
 
 I wrote a small OpenCV & C++ tool called **FrameFixer** to read through a video file, locate duplicate or at-risk frames, and adjust them to minimize loss.  It was surprisingly difficult to make the frame comparison metric; I needed one that could recognize duplicates despite minor frame variations while also measuring broad visual changes.  Ultimately, I used the standard deviation of the absolute difference.  With **FrameFixer**, the sample clip maintains Frame 3 of content.
 
-![FrameFixer adjusts frames to minimize loss](../../../res/images/posts/framefixer/restored_frame.jpg)
+![FrameFixer adjusts frames to minimize loss]({{ site.baseurl }}/posts/images/framefixer/restored_frame.jpg)
 
 This tool doesn't actually perform downsampling, merely adjusts frame positioning to prepare for it.  If frame loss is unavoidable, those with the least visible changes will be the first to go.  Also, make sure to review the steps for copying audio and take a look at additional options.  You can find all the info you'll need at the [GitHub page](https://github.com/spolsley/framefixer).
 

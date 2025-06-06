@@ -28,17 +28,17 @@ Let's look at the relative sizes of DVD (in this blog, I will only consider what
 - 4k (UHD: 2160p): 3840x2160 = 8,294,400 pixels
 
 <div style="text-align: center;">
-<img src="../../../res/images/posts/upscaling-hd-bluray/sizes_comparison.png" width="600" alt="A visualization that shows the comparison of the different sizes relative each other. 4k is the outer box, with BluRay being a smaller blue box in the lower right corner, and DVD is the much smaller black box in the lower right corner of both.">
+<img src="{{ site.baseurl }}/posts/images/upscaling-hd-bluray/sizes_comparison.png" width="600" alt="A visualization that shows the comparison of the different sizes relative each other. 4k is the outer box, with BluRay being a smaller blue box in the lower right corner, and DVD is the much smaller black box in the lower right corner of both.">
 </div>
 
 <div style="text-align: center;">
-<img src="../../../res/images/posts/upscaling-hd-bluray/pixel_comparison.png" width="600" alt="A bar chart showing how the total number of pixels grows from DVD to 4k, going from about 300 thousand to over 8 million.">
+<img src="{{ site.baseurl }}/posts/images/upscaling-hd-bluray/pixel_comparison.png" width="600" alt="A bar chart showing how the total number of pixels grows from DVD to 4k, going from about 300 thousand to over 8 million.">
 </div>
 
 Actually, even though 4k looks like a significant jump on this linear chart, it's "only" 4x the number of pixels of BluRay, while BluRay is 6x the number of pixels of DVD.  If we plot this on a logarithmic scale, we can see how the differences are not that extreme, but the slightly larger gap between 1080p and 480p is a bit more apparent:
 
 <div style="text-align: center;">
-<img src="../../../res/images/posts/upscaling-hd-bluray/logpixel_comparison.png" width="600" alt="On a log scale, we see values of 5.5, 6.3, and 6.9 for DVD, BluRay, and 4k, respectively">
+<img src="{{ site.baseurl }}/posts/images/upscaling-hd-bluray/logpixel_comparison.png" width="600" alt="On a log scale, we see values of 5.5, 6.3, and 6.9 for DVD, BluRay, and 4k, respectively">
 </div>
 
 ## Core Technological Distinctiveness
@@ -56,7 +56,7 @@ So a lot of it comes down to the vast differences in technology and the raw amou
 Still, we're just talking 6x versus 4x upscales, right?  Well, the last critical piece to consider is just how much information is stored in the original medium.  This [CNET article by Geoffrey Morrison](https://www.cnet.com/tech/home-entertainment/can-4k-tvs-make-1080p-look-better/) does a good job of visualizing just how much data is lost in a DVD master.
 
 <div style="text-align: center;">
-<img src="../../../res/images/posts/upscaling-hd-bluray/upscale_example.png" width="600" alt="A snippet from a CNET article demonstrates that the 1080p version of an image of a starry night is rich with data, while the 480p compressed version loses a vast amount of visual data">
+<img src="{{ site.baseurl }}/posts/images/upscaling-hd-bluray/upscale_example.png" width="600" alt="A snippet from a CNET article demonstrates that the 1080p version of an image of a starry night is rich with data, while the 480p compressed version loses a vast amount of visual data">
 </div>
 
 Credit: [Geoffrey Morrison](https://www.cnet.com/tech/home-entertainment/can-4k-tvs-make-1080p-look-better/)

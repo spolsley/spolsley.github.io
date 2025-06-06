@@ -25,4 +25,4 @@ Checking "Show Visited States" displays all the boards the computer evaluates in
 
 For example, in the game below, the human player has put an "X" in the upper right, and the computer chose the center to play "O".  Although the difference is minor, color coding shows that the center and edges are empirically better cells than in-between cells.
 
-![Sample TicTacToe Game](../../../res/images/posts/minmax-tictactoe/samplegame.png)
+![Sample TicTacToe Game]({{ site.baseurl }}/posts/images/minmax-tictactoe/samplegame.png)
