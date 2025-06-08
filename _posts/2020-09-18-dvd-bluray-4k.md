@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Upscaling from BluRay to 4K but What of DVD?"
-date:   2018-09-18
+date:   2020-09-18
 categories: 
 ---
 

@@ -158,3 +158,27 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+
+/* blockquotes and callouts */
+.post blockquote {
+  border-left: 4px solid #a00;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  background: #f9f9f9;
+  font-style: italic;
+}
+
+.post blockquote strong {
+  color: #a00;
+  font-style: normal;
+}
+
+.post .callout {
+  background: #f5f5f5;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+  border-left: 4px solid #00a;
+  font-size: 0.95em;
+  line-height: 1.4;
+}

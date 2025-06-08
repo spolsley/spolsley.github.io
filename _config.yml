@@ -5,8 +5,14 @@ plugins: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 paginate_path: "/posts/page:num/"
 future: true
-description: Seth Polsley's Blog - Tech Thoughts
-intro: Tech Thoughts
+# Main site settings
+title: "Seth Polsley's Website"
+description: "Seth Polsley's Website"
+# Blog specific settings
+blog:
+  intro: "Circuit & Soul - Seth Polsley's Blog of Largely Tech-Related Meanderings"
+  title: "Circuit & Soul"
+  description: "A blog about technology and contemplation"
 logo: /assets/images/tt_logo.png
 disqus_shortname:
 # url: http://gotchacode.com
