@@ -3,27 +3,24 @@
       <ul class="nav">
         <li class="{% if page.url == '/' or page.url contains 'about' %}active{% endif %}">
           <a href="/">
-            <span class="mega-octicon octicon-person" style="margin-right: 6px;"></span>
             <div class="nav-item">
-              <div class="nav-main">Seth Polsley</div>
+              <div class="nav-main"><span class="mega-octicon octicon-person" style="margin-right: 6px;"></span>Seth Polsley</div>
               <div class="nav-sub">About Me</div>
             </div>
           </a>
         </li>
         <li class="{% if page.url contains '/posts/' or page.url contains '/blog/' or page.url contains '/article/' %}active{% endif %}">
           <a href="/posts/">
-            <span class="mega-octicon octicon-book" style="margin-right: 6px;"></span>
             <div class="nav-item">
-              <div class="nav-main">Posts</div>
+              <div class="nav-main"><span class="mega-octicon octicon-book" style="margin-right: 6px;"></span>Posts</div>
               <div class="nav-sub">My Circuit & Soul Blog</div>
             </div>
           </a>
         </li>
         <li class="{% if page.url contains '/projects/' %}active{% endif %}">
           <a href="/projects/">
-            <span class="mega-octicon octicon-code" style="margin-right: 6px;"></span>
             <div class="nav-item">
-              <div class="nav-main">Projects</div>
+              <div class="nav-main"><span class="mega-octicon octicon-code" style="margin-right: 6px;"></span>Projects</div>
               <div class="nav-sub">My Work</div>
             </div>
           </a>
