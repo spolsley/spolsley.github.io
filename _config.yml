@@ -1,18 +1,21 @@
 name: Seth Polsley
 highlighter: false
-url: https://www.spolsley.com
+url: https://sethpolsley.com
 plugins: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 paginate_path: "/posts/page:num/"
 future: true
 # Main site settings
-title: "Seth Polsley's Website"
-description: "Seth Polsley's Website"
+title: "Seth Polsley ~ The Polsley Pulse"
+description: "The Polsley Pulse: Seth Polsley's personal blog of tech-related meanderings and an archive of past projects."
+# External link to the primary professional site (polsley.com)
+main_site_url: https://www.polsley.com
 # Blog specific settings
 blog:
-  intro: "Circuit & Soul - Seth Polsley's Blog of Largely Tech-Related Meanderings"
-  title: "Circuit & Soul"
+  intro: "The Polsley Pulse - Seth Polsley's Blog of Largely Tech-Related Meanderings"
+  title: "The Polsley Pulse"
   description: "A blog about technology and contemplation"
+  icon: "~"
 logo: /assets/images/tt_logo.png
 disqus_shortname:
 # url: http://gotchacode.com
@@ -26,8 +29,8 @@ owner:
   email:          <your-email-address>
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  github: https://www.github.com/spolsley
-  linkedin: https://www.linkedin.com/in/spolsley
+  github: https://www.github.com/polsley
+  linkedin: https://www.linkedin.com/in/polsley
   scholar: https://scholar.google.com/citations?user=TYi09_oAAAAJ&hl=en
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship

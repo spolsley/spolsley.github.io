@@ -751,3 +751,13 @@ code.html span.doctype {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 /* @end */
+
+/* The Polsley Pulse blog mark (tilde) */
+.blog-mark {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 700;
+  color: #556270;
+  transform: translateY(-0.12em) scaleX(1.4);
+  transform-origin: center;
+}

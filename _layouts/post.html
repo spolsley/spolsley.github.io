@@ -2,11 +2,9 @@
 layout: default
 comments: true
 ---
-<div class="header">
-<h1><a href="{{ site.baseurl }}/posts/"><img src="{{ site.logo }}" height="32px">{{ site.blog.title }}</a></h1>
-</div>
+<p class="post-back"><a href="{{ site.baseurl }}/posts/"><span class="blog-mark">{{ site.blog.icon }}</span>{{ site.blog.title }}</a></p>
 
-<h2 class="post-title">{{ page.title }}</h2>
+<h1 class="post-title">{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
