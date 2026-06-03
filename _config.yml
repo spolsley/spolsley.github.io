@@ -7,7 +7,7 @@ paginate_path: "/posts/page:num/"
 future: true
 # Main site settings
 title: "Seth Polsley ~ The Polsley Pulse"
-description: "The Polsley Pulse: Seth Polsley's personal blog of tech-related meanderings and an archive of past projects."
+description: "The Polsley Pulse: Seth Polsley's personal blog of tech-related meanderings and projects archive."
 # External link to the primary professional site (polsley.com)
 main_site_url: https://www.polsley.com
 # Blog specific settings

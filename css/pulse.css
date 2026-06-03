@@ -4,6 +4,8 @@
    ========================================================================= */
 
 :root {
+  color-scheme: light dark;
+
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
     "Liberation Mono", monospace;
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -17,8 +19,26 @@
   --accent-hover: #0b5a54;
   --border: #e7e7e2;
   --code-bg: #f4f4f0;
+  --panel: #ffffff;
+  --on-accent: #ffffff;
 
   --measure: 860px;
+}
+
+/* Dark mode: follows the visitor's system setting (prefers-color-scheme). */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15181b;
+    --text: #e3e6e9;
+    --muted: #9aa1a8;
+    --faint: #6b7177;
+    --accent: #4db6ac;
+    --accent-hover: #6fc7be;
+    --border: #2a2f34;
+    --code-bg: #1c2125;
+    --panel: #1b1f23;
+    --on-accent: #11171a;
+  }
 }
 
 * {
@@ -184,7 +204,7 @@ h3 { font-size: 1.08rem; margin: 1.6rem 0 0.4rem; }
 }
 .aside-links .primary a:hover {
   background: var(--accent);
-  color: #fff;
+  color: var(--on-accent);
   text-decoration: none;
 }
 
@@ -358,7 +378,7 @@ pre code {
   width: 250px;
   margin: 0.4rem 0 1.2rem 1.75rem;
   padding: 0.9rem 1.1rem;
-  background: #fbfbf8;
+  background: var(--panel);
   border-left: 3px solid var(--accent);
   font-family: var(--font-mono);
   font-size: 0.92rem;
@@ -401,7 +421,7 @@ pre code {
 .content {
   height: 100%;
   padding: 1.1rem 1.2rem;
-  background: #fff;
+  background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 8px;
 }
